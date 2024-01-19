@@ -4,13 +4,8 @@
   box-sizing: border-box;
 }
 
-.debug {
-  /* background-color: rgba(255, 0, 0, .2); */
-  border: 2px dotted black;
-}
-
 .debug div,
-.debug nav{
+.debug nav {
   border: 1px solid black;
 }
 
@@ -19,21 +14,21 @@ body {
   background-color: white;
 }
 
-header{
+header {
   background-image: url('../img/jumbo.png');
   background-size: cover;
   color: white;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-h2{
+h2 {
   color: black;
   font-size: 40px;
 }
@@ -44,142 +39,138 @@ h2{
   margin: 0 auto;
 }
 
-.d-flex{
+.d-flex {
   display: flex;
 }
 
-.button{
+.button {
   background-color: white;
+  color: black;
   border-radius: 30px;
   padding: 10px;
 }
 
-.button i{
+.button i {
   padding: 5px;
 }
 
-.bg-grey{
+.bg-grey {
   background-color: #F6F6F6;
 }
 
-.bg-black{
+.bg-black {
   background-color: black;
   color: white;
 }
 
-.bg-white{
-  background-color: white;
-  color: black;
-}
-
-.bg-light-blue{
+.bg-light-blue {
   background-color: #8ea1e1;
   color: white;
 }
 
 /* STILI HEADER */
 
-.topbar{
-  /* background-color: #add8e6; */
-  /* height: 100px; */
+.topbar {
   padding: 20px;
 }
 
-.topbar .container{
+.topbar .container {
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-} 
+}
 
-.topbar .menu{
+.topbar .menu {
   width: 50%;
 }
 
-.topbar .menu ul{
+.topbar .menu ul {
   justify-content: space-between;
 }
 
-.topbar .menu ul li a{
+.topbar .menu ul li a {
   color: white;
   text-decoration: none;
   font-size: 20px;
 }
-.hero{
+
+.hero {
   justify-content: center;
   align-items: center;
-  /* background-color: #3170e4; */
-  height: 630px; /* DEBUG */
+  height: 630px;
+  /* DEBUG */
 }
 
-.hero .content{
+.hero .content {
   text-align: center;
   width: 98%;
   max-width: 950px;
   color: white;
-  font-family: "Abcgintonord 800",sans-serif;
+  font-family: "Abcgintonord 800", sans-serif;
 }
 
-.hero .content h1{
+.hero .content h1 {
   font-size: 56px;
   font-weight: 700;
 }
 
-.hero .content p{
+.hero .content p {
   margin: 30px 100px;
 }
 
-.hero button{
+.hero button {
   font-size: 18px;
+  min-height: 60px;
 }
+
 /* /STILI HEADER */
 
 /* MAIN */
-main section{
+main section {
   padding: 150px 0;
-  height: 900px; /* DEBUG */
-}
-
-main section .container{
-  height: 100%; /* DEBUG */
 }
 
 .container div.img {
-  width: 60%;
-  
+  width: 65%;
+
 }
 
 .container div.box-text {
-  width: 40%;
+  width: 25%;
   background-color: white;
   color: black;
   align-items: center;
 }
-
-.container div.box-text p{
+.container div.box-text h2{
+  
+}
+.container div.box-text p {
   margin-top: 24px;
   font-size: 20px;
+  line-height: 28px;
 }
 
 /* /MAIN */
 
 /* TECNOLOGIA */
 
-#tecnologia .container{
+#tecnologia .container {
   text-align: center;
   flex-direction: column;
   justify-content: space-between;
 }
 
-#tecnologia .container .cta{
+#tecnologia .container .cta {
   margin: 50px;
 }
 
-#tecnologia .container .cta h3{
+#tecnologia .container .cta {
   background-image: url(../img/stars.svg);
   background-position: center;
+  background-repeat: no-repeat;
+
 }
 
-#tecnologia .container p{
+#tecnologia .container p {
   font-size: 20px;
   margin-top: 24px;
 }
@@ -188,46 +179,56 @@ main section .container{
 
 /* STILI FOOTER */
 footer {
-  padding: 80px;
+  padding: 50px;
   background-color: #23272a;
   color: white;
 }
 
-footer .top{
-  height: 580px; /* DEBUG */
+footer .top {
+  border-bottom: 2px solid #48567e;
 }
 
-footer h2,h3{
+footer h2,
+h3 {
   color: #6f85d3;
 }
 
-footer .top .container{
-  
-  height: 100%;
-}
-
-footer .top .social-menu{
+footer .top .social-menu {
   width: 25%;
 }
-footer .top .social-menu div{
-  margin: 10px;
+
+footer .top .social-menu div {
+  margin-bottom: 20px;
   font-size: 1.5rem;
 }
-footer .top .footer-menu{
+
+.language img {
+  width: 40px;
+  padding-right: 10px;
+}
+
+.social-icons i {
+  padding-right: 20px;
+}
+
+
+footer .top .footer-menu {
   width: 75%;
 }
 
-footer .top .footer-menu nav{
+footer .top .footer-menu nav {
   width: 25%;
 }
 
-footer .top .footer-menu nav ul li{
-  width: 25%;
-  padding: 10px;
+footer .top .footer-menu nav h3,
+li {
+  margin-bottom: 10px;
 }
 
-footer .bottom{
-  padding-bottom: 80px;
+
+footer .bottom {
+  padding-top: 20px;
   justify-content: space-between;
 }
+
 /* /STILI FOOTER */
