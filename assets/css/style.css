@@ -19,12 +19,23 @@ body {
   background-color: white;
 }
 
+header{
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  color: white;
+}
+
 ul{
   list-style: none;
 }
 
 img{
   max-width: 100%;
+}
+
+h2{
+  color: black;
+  font-size: 40px;
 }
 
 .container {
@@ -56,12 +67,18 @@ img{
   color: white;
 }
 
+.bg-white{
+  background-color: white;
+  color: black;
+}
+
+.bg-light-blue{
+  background-color: #8ea1e1;
+  color: white;
+}
+
 /* STILI HEADER */
 
-header{
-  background-image: url('../img/jumbo.png');
-  background-size: cover;
-}
 .topbar{
   /* background-color: #add8e6; */
   /* height: 100px; */
@@ -128,14 +145,19 @@ main section .container{
 
 .container div.img {
   width: 60%;
-  /* background-color: #1e90ff;
-  color: white; */
+  
 }
 
 .container div.box-text {
   width: 40%;
-  background-color: #ffc0cb;
-  color: white;
+  background-color: white;
+  color: black;
+  align-items: center;
+}
+
+.container div.box-text p{
+  margin-top: 24px;
+  font-size: 20px;
 }
 
 /* /MAIN */
@@ -144,13 +166,22 @@ main section .container{
 
 #tecnologia .container{
   text-align: center;
-  flex-direction: column; /* DEBUG */
-  justify-content: space-between; /* DEBUG */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#tecnologia .container .cta{
+  margin: 50px;
 }
 
 #tecnologia .container .cta h3{
   background-image: url(../img/stars.svg);
   background-position: center;
+}
+
+#tecnologia .container p{
+  font-size: 20px;
+  margin-top: 24px;
 }
 
 /* TECNOLOGIA */
@@ -163,20 +194,23 @@ footer {
 }
 
 footer .top{
-  
   height: 580px; /* DEBUG */
+}
+
+footer h2,h3{
+  color: #6f85d3;
 }
 
 footer .top .container{
   
-  height: 100%; /* DEBUG */
+  height: 100%;
 }
 
 footer .top .social-menu{
   width: 25%;
 }
 footer .top .social-menu div{
-  color: white;
+  margin: 10px;
   font-size: 1.5rem;
 }
 footer .top .footer-menu{
@@ -185,6 +219,11 @@ footer .top .footer-menu{
 
 footer .top .footer-menu nav{
   width: 25%;
+}
+
+footer .top .footer-menu nav ul li{
+  width: 25%;
+  padding: 10px;
 }
 
 footer .bottom{
