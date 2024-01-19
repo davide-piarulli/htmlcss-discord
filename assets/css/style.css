@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug {
+  /* background-color: rgba(255, 0, 0, .2); */
+  border: 2px dotted black;
+}
+
+.debug div,
+.debug nav{
+  border: 1px solid black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container {
+  width: 98%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.bg-grey{
+  background-color: #F6F6F6;
+}
+
+/* STILI HEADER */
+.topbar{
+  background-color: #add8e6;
+  height: 100px;
+}
+
+.topbar .container{
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+} 
+
+.topbar .menu{
+  width: 50%;
+}
+
+.topbar .menu ul{
+  justify-content: space-between;
+}
+
+.hero{
+  justify-content: center;
+  align-items: center;
+  background-color: #3170e4;
+  height: 630px; /* DEBUG */
+}
+
+.hero .content{
+  width: 98%;
+  max-width: 950px;
+  height: 380px; /* DEBUG */
+}
+/* /STILI HEADER */
+
+/* MAIN */
+main section{
+  padding: 150px 0;
+  height: 900px; /* DEBUG */
+}
+
+main section .container{
+  height: 100%; /* DEBUG */
+}
+
+.container div.img {
+  width: 60%;
+  background-color: #1e90ff;
+  color: white;
+}
+
+.container div.box-text {
+  width: 40%;
+  background-color: #ffc0cb;
+  color: white;
+}
+
+/* /MAIN */
+
+/* TECNOLOGIA */
+
+#tecnologia .container{
+  text-align: center;
+  flex-direction: column; /* DEBUG */
+  justify-content: space-between; /* DEBUG */
+}
+
+/* TECNOLOGIA */
+
+/* STILI FOOTER */
+footer {
+  padding: 80px;
+  background-color: #23272a;
+  color: white;
+}
+
+footer .top{
+  
+  height: 580px; /* DEBUG */
+}
+
+footer .top .container{
+  
+  height: 100%; /* DEBUG */
+}
+
+footer .top .social-menu{
+  width: 25%;
+}
+footer .top .social-menu div{
+  color: white;
+  font-size: 1.5rem;
+}
+footer .top .footer-menu{
+  width: 75%;
+}
+
+footer .top .footer-menu nav{
+  width: 25%;
+}
+
+footer .bottom{
+  padding-bottom: 80px;
+  justify-content: space-between;
+}
+/* /STILI FOOTER */
