@@ -131,18 +131,17 @@ main section {
 
 .container div.img {
   width: 65%;
-
+  justify-content: center;
+  background-color: transparent;
 }
 
 .container div.box-text {
   width: 25%;
-  background-color: white;
+  background-color: transparent;
   color: black;
   align-items: center;
 }
-.container div.box-text h2{
-  
-}
+
 .container div.box-text p {
   margin-top: 24px;
   font-size: 20px;
@@ -159,22 +158,25 @@ main section {
   justify-content: space-between;
 }
 
-#tecnologia .container .cta {
-  margin: 50px;
+#tecnologia .container p {
+  font-size: 20px;
+  margin: 24px;
+}
+
+.pic img{
+  width: 100%;
 }
 
 #tecnologia .container .cta {
   background-image: url(../img/stars.svg);
-  background-position: center;
   background-repeat: no-repeat;
-
+  background-position: top center;
+  padding: 25px 0 35px;
 }
 
-#tecnologia .container p {
-  font-size: 20px;
-  margin-top: 24px;
+#tecnologia .container .cta h2{
+  padding-bottom: 20px;
 }
-
 /* TECNOLOGIA */
 
 /* STILI FOOTER */
