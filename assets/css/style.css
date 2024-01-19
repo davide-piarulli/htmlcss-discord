@@ -39,7 +39,7 @@ img{
 
 .button{
   background-color: white;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 10px;
 }
 
@@ -110,6 +110,10 @@ header{
 .hero .content p{
   margin: 30px 100px;
 }
+
+.hero button{
+  font-size: 18px;
+}
 /* /STILI HEADER */
 
 /* MAIN */
@@ -124,8 +128,8 @@ main section .container{
 
 .container div.img {
   width: 60%;
-  background-color: #1e90ff;
-  color: white;
+  /* background-color: #1e90ff;
+  color: white; */
 }
 
 .container div.box-text {
@@ -142,6 +146,11 @@ main section .container{
   text-align: center;
   flex-direction: column; /* DEBUG */
   justify-content: space-between; /* DEBUG */
+}
+
+#tecnologia .container .cta h3{
+  background-image: url(../img/stars.svg);
+  background-position: center;
 }
 
 /* TECNOLOGIA */
