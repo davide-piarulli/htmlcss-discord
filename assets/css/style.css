@@ -15,8 +15,7 @@ body {
 }
 
 header {
-  background-image: url('../img/jumbo.png');
-  background-size: cover;
+  background-color: #255ee9;
   color: white;
 }
 
@@ -28,9 +27,13 @@ img {
   max-width: 100%;
 }
 
+h1{
+  font-size: 3.5rem;
+}
+
 h2 {
   color: black;
-  font-size: 40px;
+  font-size: 3rem;
 }
 
 .container {
@@ -46,8 +49,18 @@ h2 {
 .button {
   background-color: white;
   color: black;
+  text-decoration: none;
   border-radius: 30px;
-  padding: 10px;
+  padding: 10px 15px;
+}
+
+.button:hover{
+  opacity: .8;
+}
+
+.button.button-big{
+  padding: 13px 20px;
+  font-size: 1.1rem;
 }
 
 .button i {
@@ -87,17 +100,24 @@ h2 {
   justify-content: space-between;
 }
 
-.topbar .menu ul li a {
+.topbar .menu ul a {
   color: white;
   text-decoration: none;
   font-size: 20px;
 }
 
+.topbar .menu ul a:hover{
+  text-decoration: underline;
+}
+
 .hero {
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #255ee9;
   justify-content: center;
   align-items: center;
   height: 630px;
-  /* DEBUG */
 }
 
 .hero .content {
@@ -108,13 +128,9 @@ h2 {
   font-family: "Abcgintonord 800", sans-serif;
 }
 
-.hero .content h1 {
-  font-size: 56px;
-  font-weight: 700;
-}
-
 .hero .content p {
   margin: 30px 100px;
+  line-height: 2rem;
 }
 
 .hero button {
@@ -136,6 +152,7 @@ main section {
 }
 
 .container div.box-text {
+  padding: 40px;
   width: 25%;
   background-color: transparent;
   color: black;
@@ -167,15 +184,16 @@ main section {
   width: 100%;
 }
 
-#tecnologia .container .cta {
+#tecnologia .container .cta h3{
+  color: black;
+  width: 50%;
   background-image: url(../img/stars.svg);
+  margin: 0 auto 30px auto;
+  padding-top: 40px;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
-  padding: 25px 0 35px;
-}
-
-#tecnologia .container .cta h2{
-  padding-bottom: 20px;
+  font-size: 2rem;
 }
 /* TECNOLOGIA */
 
@@ -190,8 +208,8 @@ footer .top {
   border-bottom: 2px solid #48567e;
 }
 
-footer h2,
-h3 {
+footer h3,
+footer h4 {
   color: #6f85d3;
 }
 
@@ -199,13 +217,17 @@ footer .top .social-menu {
   width: 25%;
 }
 
-footer .top .social-menu div {
-  margin-bottom: 20px;
+footer .social-menu a{
+  font-size: 1.5rem;
+}
+
+footer .top .social-menu li {
+  margin-right: 20px;
   font-size: 1.5rem;
 }
 
 .language img {
-  width: 40px;
+  width: 35px;
   padding-right: 10px;
 }
 
