@@ -1,13 +1,20 @@
 Discord Website
+![discord preview](https://github.com/user-attachments/assets/0c46ceeb-2868-46f9-9eab-d0592e3b6680)
 ===
-**Descrizione**
-Riproduciamo il layout come da screenshot cercando di essere il più fedeli possibili.
-Partiamo dai blocchi colorati e solo quando tutto funziona passiamo al dettaglio, sezione per sezione.
-**Consigli**
-Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel layout, capendo quindi come e cosa possiamo centralizzare per rendere il nostro codice il più possibile semplice, pulito e quindi mantenibile.
-Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un po’ con unità relative senza però crearci nuove difficoltà, tanto meglio.
-Partite comunque sempre semplici, non focalizzandovi su parti/soluzioni complesse, semmai le affronterete in un secondo momento.
-NB
-La parte relativa alle onde NON consideratela. Lasciate i blocchi grigi dritti.
-BONUS
-Mettete le onde :occhiolino:  (solo a lavoro finito!! :orco_giapponese:)
+Questo progetto è una replica della pagina di destinazione di Discord, creata utilizzando solo HTML e CSS. 
+
+## Descrizione
+
+Il progetto riproduce fedelmente la pagina principale di Discord, inclusi tutti gli elementi visivi e le sezioni strutturali. È stato realizzato per mettere in mostra le mie capacità di sviluppo frontend utilizzando tecniche pure di HTML e CSS.
+
+## Struttura del Progetto
+
+- **index.html**: Contiene la struttura HTML della pagina.
+- **styles.css**: Contiene tutti gli stili CSS utilizzati per la pagina.
+
+## Funzionalità
+
+- Design reattivo che si adatta a diversi dispositivi e dimensioni dello schermo.
+- Utilizzo di layout moderni come Flexbox.
+- Inclusione di immagini e icone per una replica accurata del design originale.
+
